@@ -1,0 +1,145 @@
+.App {
+  width: 100%;
+  margin: auto;
+
+  background-color: #f0f0f0;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  /* width: 1080px; */
+  height: 100vh;
+  box-sizing: border-box;
+  /* padding: 0 500px; */
+  margin: auto;
+  background-color: #282c34;
+  background: url(./images/2.png) no-repeat;
+  background-size: 100%;
+}
+
+.app_heasdedr {
+  margin: auto;
+  width: 1020px;
+}
+
+.box .hear {
+
+  display: flex;
+  height: 80px;
+  width: 100%;
+
+  /* left: 63%; */
+  /* transform: translateX(50%); */
+
+
+}
+
+.hear .logo {
+
+  width: 80px;
+  height: 100%;
+}
+
+.hear .title {
+  padding-top: 20px;
+  margin-left: 10px;
+  font-family: "宋体";
+  font-size: 19px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.hear .daohang {
+  display: flex;
+}
+
+.hear .sdasa {
+  width: 80px;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 20px;
+  background-color: #86deed;
+}
+
+.box .navs {
+  width: 100%;
+  height: 50px;
+  background-color:
+    rgb(78, 207, 228);
+}
+
+.nacBox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nacBox .dsdsaa {
+  padding: 0 30px;
+  line-height: 30px;
+  color: #fff;
+
+}
+
+.hear .daohang .dsds {
+  line-height: 30px;
+  margin-top: 40px;
+  margin-right: 10px;
+  width: 100px;
+  text-align: center;
+  height: 30px;
+  background: linear-gradient(to right, transparent, #35d5f0, transparent);
+}
+
+.hear .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logout {
+  cursor: pointer;
+}

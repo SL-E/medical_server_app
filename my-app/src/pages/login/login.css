@@ -1,0 +1,84 @@
+.login_boxs {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background: #000;
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #7da5a7, #ece2e3);
+}
+
+.login_biao {
+
+    text-align: center;
+    font-size: 120px;
+}
+
+.login_biao span {
+
+    color: #fff;
+}
+
+.login_biao p {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    margin-top: -20px;
+
+}
+
+.login_from {
+
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.logn_w {
+    font-size: 12px;
+    color: #fff;
+}
+
+.logng_r {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dengl {
+    width: 120px;
+    height: 40px;
+    background: #6b9594;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+}
+
+.login_ti {
+    width: 240px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mima {
+    margin-top: 10px;
+}
+
+.biao_one {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #8badb2;
+    font-size: 20px;
+    font-weight: 700;
+    background: #cde1e2;
+}

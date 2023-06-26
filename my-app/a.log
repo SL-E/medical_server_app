@@ -1,0 +1,17 @@
+
+> my-app@0.1.0 start /Users/huanglifeng/Desktop/Medical-app/my-app
+> react-app-rewired start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.31.79:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+webpack compiled successfully

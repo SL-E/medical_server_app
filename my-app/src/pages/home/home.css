@@ -1,0 +1,255 @@
+.home_box {
+    width: 920px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home_flet {
+    width: 700px;
+
+    box-sizing: border-box;
+    padding: 0 20px;
+    background-color: #eff1f4;
+
+}
+
+.home_right {
+    width: 200px;
+    height: 100vh;
+    padding: 10px 15px;
+    background-color: #253141;
+
+}
+
+.xinsd {
+    width: 40px;
+    height: 100%;
+    background-color: #18c9a1;
+    text-align: center;
+    line-height: 40px;
+    font-size: 27px;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.vnn {
+    font-size: 12px;
+    font-weight: 700;
+    transform: scale(.8);
+}
+
+.ccsdsdsds {
+    margin-top: 4px;
+    color: #999;
+    font-weight: 400;
+}
+
+.hgi_box {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.card_box {
+    width: 200px;
+    height: 90px;
+    background: #fff;
+}
+
+.sasdzx {
+    background: #1889c9;
+}
+
+.card_box span {
+
+    display: inline-block;
+    margin-left: -25px;
+    transform: scale(.6);
+    font-size: 12px;
+
+}
+
+.ant-btn {
+    width: 150px;
+    height: 20px;
+    padding: 0;
+    font-size: 12px;
+}
+
+.sdss {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.zxzxx {
+    margin-left: -15px;
+    font-size: 12px;
+    transform: scale(.8);
+    color: #7eaade;
+}
+
+.dfsfs {
+    color: #000;
+}
+
+.yuan_box {
+    display: flex;
+}
+
+.yuan {
+    width: 5px;
+    height: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #f4a600;
+}
+
+.yuana {
+    background: rgb(195, 193, 193);
+}
+
+.lhjig {
+    font-size: 23px;
+    margin: 15px 0;
+    color: rgb(195, 193, 193);
+    ;
+}
+
+.lhjigs {
+    font-size: 20px;
+    transform: scale(.8);
+    margin-left: -20px;
+}
+
+.lhjigcv {
+    margin-left: -20px;
+    font-size: 18px;
+    transform: scale(.8);
+}
+
+.ssthjng {
+    display: flex;
+}
+
+.trefsx {
+    line-height: 10px;
+    margin-left: -7px;
+    color: #adb2b7;
+    transform: scale(.8);
+}
+
+.cla {
+    margin-top: 10px;
+
+    margin-left: -20px;
+}
+
+.jin {
+    width: 100%;
+    height: 10px;
+    background: #f5a700;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.tables {
+
+    margin-top: 40px;
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.tielehed {
+    padding: 5px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    color: #fff;
+    background-color: #54a1fd;
+}
+
+.tab_vc {
+    margin: 10px;
+    font-size: 10px;
+}
+
+.butt {
+    margin-left: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 3px;
+    width: 70px;
+    font-size: 10px;
+    height: 20px;
+}
+
+.gren {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #348538;
+}
+
+.yewo {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: -10px;
+    background: #f5a700;
+}
+
+.lhjigs .sdsds {
+    font-size: 12px;
+
+}
+
+.card_box {
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 1px 1px 3px rgb(204, 203, 203);
+}
+
+.ant-card {
+    background: #f9fbff !important;
+}
+
+.ant-tabs-nav {
+    border-bottom: 1px solid rgb(99, 97, 97);
+}
+
+.ixcon {
+    float: right;
+    font-size: 20px !important;
+    transform: scale(0.5);
+
+    color: #999;
+}
+
+.ant-card-head {
+    padding: 0 10px !important;
+    border: 0 !important;
+}
+
+.ant-card-body {
+    padding: 0 10px !important;
+}

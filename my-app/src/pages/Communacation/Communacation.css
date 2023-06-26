@@ -1,0 +1,301 @@
+.communacation-box {
+    margin: 50px auto;
+    width: 65vw;
+    height: 75vh;
+      /* 将 box-shadow 的第四个参数设为清晰度（模糊半径） */
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    /* 设置过渡效果，让阴影在悬浮时逐渐变深 */
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    background: linear-gradient(to right, #5ebd9a, #5ebd9a);
+}
+
+
+.user-list-box {
+    width: 18vw;
+    height: 100%;
+    background-color: rgb(68, 172, 134);
+}
+
+.communacation-list-box {
+    width: calc(65vw - 18vw - 120px);
+    height: 100%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.communacation-title {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.communacation-title span:first-child{
+    font-size: 38px;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.communacation-title span{
+    font-size: 28px;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.communacation-title > div {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 80px;
+    display: flex;
+}
+
+.communacation-search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.communacation-search {
+    width: 16vw;
+    height: 48px;
+    border: none;
+    padding-left: 20px;
+}
+
+.communacation-tab-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.communacation-tab-box > div {
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.communacation-tab-ative {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.communacation-user-list-box {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 55vh;
+}
+
+.communacation-user-list-box >div  {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.communacation-user-list-box >div:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+
+.communacation-user-list-box >div >div >span:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.communacation-user-list-box >div >div >p {
+    width: 10vw;
+    font-size: 18px;
+    white-space: nowrap; /* 禁用文本换行 */
+    overflow: hidden; /* 超出部分隐藏 */
+    text-overflow: ellipsis; /* 在文本溢出时用省略号表示 */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.communacation-user-unread {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #5ebd9a;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.communacation-user-online {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:greenyellow;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.communacation-user-offline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+.communacation-list-header {
+    position: relative;
+    width: 100%;
+    height: 6vh;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.communacation-user-online-chat {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:greenyellow;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.communacation-user-off-chat {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:red;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.communacation-user-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 20px;
+}
+
+.communacation-user-media {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.communacation-user-media > div {
+    margin-right: 10px;
+    background-color: rgb(68, 172, 134);
+    padding: 10px;
+    border-radius: 50%;
+    transform: scale(0.8);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.communacation-user-media > div:hover {
+    transform: scale(1.08);
+}
+
+.communacation-list-body {
+    flex: 1;
+    padding: 20px;
+    max-height: calc(75vh - 6vh - 80px);
+    overflow: auto;
+}
+
+.communacation-list-footer {
+    width: 100%;
+    height: 80px;
+    background-color: #ddd;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.communacation-list-footer > div {
+    transition:  all 0.3s linear;
+    cursor: pointer;
+}
+
+.communacation-list-footer > div:hover {
+    transform: scale(1.08);
+}
+
+.communacation-user-send {
+    width: 80%;
+    height: 90%;
+    background-color: #ddd;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.communacation-content {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.communacation-content > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.communacation-content > div:first-child span {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.communacation-content > div:nth-child(2) {
+    max-width: 30vw;
+    overflow: hidden;
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.communacation-content-me {
+    flex-direction: row-reverse;
+}
+
+.communacation-content-me > div:nth-child(2) {
+    background-color: rgb(68, 172, 134);
+}

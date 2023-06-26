@@ -1,0 +1,95 @@
+.drug_boxs {
+    width: 1300px;
+    height: 80vh;
+
+    margin: auto;
+
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: auto;
+    user-select: none;
+}
+
+.drug_left {
+    width: 500px;
+    height: 80vh;
+    background: #FFF;
+}
+
+.drug_right {
+    width: 1300px;
+    height: 80vh;
+    background: #eee;
+}
+
+.drug_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.drug_fenye {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.drug_fenye span {
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.drug_fenye span:hover {
+    color: #bbb0c6;
+}
+
+.tdrug_ab {
+    width: 100%;
+    margin: auto;
+}
+
+.tdrug_ab {
+    display: flex;
+    font-size: 12px;
+    background: #e98e33;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.tdrug_ab div {
+    border: 1px solid #fff;
+    height: 50px;
+    text-align: center;
+    padding: 10px 3px;
+}
+
+.drug_one {
+    width: 200px;
+    color: #fff;
+}
+
+.drue_tow {
+    width: 200px;
+    color: #fff;
+}
+
+.tdrug_abt {
+
+    margin-top: 0;
+    background: #c0c4cd;
+}
+
+.tdrug_abt div {
+
+
+    color: #000;
+}
+
+.drug_trwe {
+    background-color: #acc7e4 !important;
+}

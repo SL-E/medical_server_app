@@ -1,0 +1,386 @@
+.Medicines_boxs {
+    width: 870px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+
+    display: flex;
+}
+
+.Medicines_left {
+    width: 250px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: linear-gradient(to bottom, #39b88f, #0da462);
+}
+
+.Medicines_left .liaotian {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.liaotian .title {
+    margin-right: 90px;
+    line-height: 20px;
+}
+
+.liaotian_jia {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+
+    color: #0da462;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.liaotian_duo {
+    font-weight: 700;
+    /* font-size: 16px; */
+    line-height: 20px;
+}
+
+.liaotian_sou {
+    margin-top: 20px;
+}
+
+.liaotian_sou .ant-input-affix-wrapper {
+    background: #219871;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.liaotian_sou .anticon-search {
+    color: #76bfa7;
+
+}
+
+.liaotian_icon {
+    display: flex;
+    margin-top: 10px;
+    color: #78ceb0;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.liaotian_gao {
+    color: #b9efdc;
+}
+
+.liaotian_friend {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.liaotian_friend:hover {
+    transform: scale(1.5);
+    background-color: #0da462;
+}
+
+
+.friend_heard {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000;
+    overflow: hidden;
+}
+
+.liaotian_friendxin {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 7px;
+
+}
+
+.friend_name {
+    color: #fff;
+    font-size: 14px;
+}
+
+.friend_wedu {
+    position: absolute;
+    right: -50px;
+    top: 15px;
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #58aa8f;
+    background: #fff;
+}
+
+.friend_gexing {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #a1e0ca;
+}
+
+.liaotian_friend img {
+    width: 100%;
+    height: 100%;
+}
+
+/* .liaotian_tan {
+    background: #219269;
+ 
+    z-index: 999;
+    transform: scale(1.5);
+} */
+
+.liaotian_sou .ant-input {
+    background: #219871;
+
+
+}
+
+.Medicines_right {
+    width: 630px;
+    height: 100%;
+    display: flex;
+
+}
+
+.frend_left {
+    width: 450px;
+    height: 100%;
+
+}
+
+.luang_heard {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #f7f9fa;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.luang_zhuantai {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-right: 5px;
+    background-color: #75e000;
+}
+
+.luang_heard p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.luang_shipin {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 150px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background: #0da462;
+    border-radius: 50%;
+}
+
+.luang_tonghua {
+    margin-left: 10px;
+}
+
+.frend_right {
+    position: relative;
+    width: 190px;
+    height: 100%;
+    background: #fff;
+
+}
+
+.liantiankkaung {
+    box-shadow: inset 0px 3px 13px -8px #999;
+    width: 450px;
+    height: 450px;
+
+    box-sizing: border-box;
+    background: #f7f9fa;
+    padding: 10px;
+}
+
+.frend_liaobox {
+    display: flex;
+}
+
+.liant_duifang {
+    display: flex;
+    margin-top: 20px;
+}
+
+.duifang_heard {
+    width: 40px;
+
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.duifang_heard img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.liao_time {
+    font-size: 12px;
+    transform: scale(.8);
+    color: #000;
+}
+
+.liao_neirong {
+    padding: 10px;
+    max-width: 400px;
+    margin-left: 5px;
+    border-radius: 5px;
+
+    min-height: 40px;
+
+    /* margin-top: -30px; */
+    box-sizing: border-box;
+    background: #eaeaea;
+}
+
+.lianliant_right {
+    flex-direction: row-reverse;
+}
+
+.lianliant_right .liao_neirong {
+    margin-right: 10px;
+    background: #13a768;
+    color: #fff;
+}
+
+.liaotian_fa {
+    box-shadow: inset 0px 3px 13px -8px #999;
+    width: 100%;
+    height: 100px;
+    background: #ebebeb;
+    overflow: hidden;
+}
+
+.liao_box {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row-reverse;
+}
+
+.liao_box span {
+    line-height: 30px;
+    margin-right: 20px;
+
+    color: #afadad;
+}
+
+.feiji {
+    width: 30px;
+    height: 30px;
+    background: #0da462;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.feiji span {
+    margin: 0;
+    color: #fff;
+}
+
+.liaotian_fa .ant-input {
+    height: 64px !important;
+    background: #ebebeb;
+}
+
+.liao_tuichu span {
+    float: right;
+}
+
+.big_derder {
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.big_derder img {
+    width: 100%;
+    height: 100%;
+}
+
+.big_zhuangtai {
+    position: absolute;
+    top: 135px;
+    right: 55px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #77e004;
+}
+
+.big_pax {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.big_xiang {
+    text-align: center;
+    font-size: 12px;
+}
+
+.big_ding {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #b0b0b0;
+}
+
+.Media {
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.some_from {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+
+}
+
+.one_from {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.one_from img {
+    width: 100%;
+    height: 100%;
+}

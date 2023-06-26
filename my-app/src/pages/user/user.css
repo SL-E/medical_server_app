@@ -1,0 +1,157 @@
+.home_boxs {
+    width: 800px;
+
+    background: #ced5df;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.user_left {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    box-sizing: border-box;
+    background: #fff;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.user_right {
+    width: 530px;
+    padding: 20px;
+
+    background: #f8f9fb;
+}
+
+.user_title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.user_ti {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.user_heard {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+.user_heard img {
+    width: 100%;
+    height: 100%;
+}
+
+.lajitong {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: #eef7fd;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    right: 75px;
+}
+
+.user_btn {
+    width: 150px;
+    height: 35px;
+    margin: auto;
+    line-height: 35px;
+    text-align: center;
+    background: #fb3c15;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.user_shuo {
+    width: 200px;
+    height: 70px;
+    margin: auto;
+    background: #f1f3ff;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.vxcfrftgy {
+    margin-top: 5px;
+}
+
+.sdzxxc {
+    width: 180px;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    margin-top: 15px;
+    transform: scale(.9);
+}
+
+.hikyuk {
+    font-weight: 700;
+}
+
+.user_xing {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.user_right .ant-tabs-tab-btn {
+    font-size: 12px;
+
+}
+
+.user_right .ant-tabs-nav {
+    border: 0;
+}
+
+.user_bigbo {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #fff;
+    margin-top: -15px;
+    overflow: hidden;
+}
+
+.inas {
+    width: 230px;
+    margin-top: 30px;
+}
+
+.inysd {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.user_asaz {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 30px;
+    margin-top: 30px;
+    background: #fe3e17;
+}

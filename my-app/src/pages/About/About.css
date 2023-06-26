@@ -1,0 +1,125 @@
+.about_boxs {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.lerel_box {
+    width: 300px;
+    height: 100%;
+
+    text-align: center;
+    line-height: 80px;
+    background-color: forestgreen;
+}
+
+.about_boxs .lerel_box:nth-child(2) {
+    background-color: red;
+}
+
+.about_boxs .lerel_box:nth-child(3) {
+    background-color: rgb(60, 32, 32);
+}
+
+.about_boxs .lerel_box:nth-child(4) {
+    background-color: rgb(15, 69, 155);
+}
+
+.about_boxs .lerel_box:nth-child(5) {
+    background-color: rgb(184, 19, 124);
+}
+
+.canter_nbox {
+
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    background-color: #fff;
+    margin: auto;
+    padding: 5px;
+}
+
+.about_select {
+    width: 250px;
+}
+
+.canter_nbox .ant-btn {
+    width: 50px;
+    background: #001d87;
+    height: 30px;
+}
+
+.about_zhu {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    height: 300px;
+
+    margin: auto;
+    background: #eaeaea;
+}
+
+.about_xiang {
+    width: 290px;
+
+    box-sizing: border-box;
+    padding: 0px 20px;
+    height: 100%;
+    background: #fff;
+
+}
+
+.about_biao {
+    font-size: 45px;
+
+}
+
+.about_title {
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    border-bottom-color: aqua;
+    border-bottom-style: dotted;
+    ;
+}
+
+.about_titleone {
+    font-size: 14px;
+    height: 40px;
+    line-height: 30px;
+    font-weight: 500;
+    border-bottom-color: rgb(190, 190, 190);
+    border-bottom-style: dotted;
+}
+
+.about_ipone-app {
+    display: flex;
+    width: 650px;
+    height: 150px;
+    margin: auto;
+    background: #fff;
+}
+
+.about_iponeImg {
+    width: 300px;
+    padding: 5px 30px;
+}
+
+.about_iponeImg img {
+    width: 200px;
+    height: 140px;
+}
+
+.aboutBook_title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.about_asa {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+

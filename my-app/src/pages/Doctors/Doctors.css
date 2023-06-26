@@ -1,0 +1,120 @@
+.doctors_boxs {
+    width: 1300px;
+    min-height: 800px;
+    margin: auto;
+    margin-top: 50px;
+
+    padding: 5px 5px;
+    /* padding-top: ; */
+    background: #fff;
+
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.doctors_selcet {
+    width: 250px;
+}
+
+.doctors_asasa {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.doctors_xbox {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-height: 800px;
+    overflow: auto;
+}
+
+.doctors_asasa .ant-btn {
+    margin-top: 0px;
+    width: 70px;
+    height: 30px;
+    padding: 0;
+    background: #480087;
+    line-height: 15px !important;
+}
+
+.doctors_title {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.doctors_doctors {
+
+    display: flex;
+    width: 380px;
+    height: 260px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(240, 240, 240, 0.4);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.doctors_doctors:hover {
+    transform: scale(1.08);
+}
+
+.doctors_xheard {
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.bdoc_sdas {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    box-shadow: -5px -7px 1px #f1ebf6;
+}
+
+.doctors_xheard img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.doctors_xright {
+    margin-left: 10px;
+}
+
+.doctors_xright .title {
+    font-weight: 700;
+}
+
+.doctors_xright .titletw {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.doctors_xright .titletr {
+    /* margin-top: 10px; */
+    font-size: 12px;
+    color: #adb0b5;
+
+}
+
+.doctors_xright .dsds {
+    font-size: 12px;
+    color: #8c5fab;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+.searchBtn {
+    width: 120px;
+    font-weight: bold;
+}
